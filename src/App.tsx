@@ -10,7 +10,10 @@ export default function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/credentials" element={<CredentialVerification />} />
+        <Route
+          path="/credentials"
+          element={<CredentialVerification />}
+        />
       </Routes>
     </HashRouter>
   );
